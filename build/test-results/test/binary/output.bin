@@ -1,0 +1,248 @@
+Request method:	POST
+,Request URI:	https://todo.ly/api/user.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+LHeaders:		Authorization=Basic amM1aHQ2NnBpQGpjcGk2LmNvbTpwYXNzMTIzNDU2Nw==
+				Accept=*/*
+1				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[{"Email":"jc5ht66pi@jcpi6.com","FullName":"jc5ht66pi@jcpi6.com","Password":"pass1234567"}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=qfnyugehvbhdpkwtuizqclv3; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:22 GMT
+Content-Length: 303
+
+{
+    "Id": 751172,
+$    "Email": "jc5ht66pi@jcpi6.com",
+    "Password": null,
+'    "FullName": "jc5ht66pi@jcpi6.com",
+    "TimeZone": 0,
+    "IsProUser": false,
+!    "DefaultProjectId": 4152382,
+"    "AddItemMoreExpanded": false,
+&    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+*    "TimeZoneId": "Pacific Standard Time"
+}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=qfnyugehvbhdpkwtuizqclv3; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:22 GMT
+Content-Length: 303
+
+{
+    "Id": 751172,
+$    "Email": "jc5ht66pi@jcpi6.com",
+    "Password": null,
+'    "FullName": "jc5ht66pi@jcpi6.com",
+    "TimeZone": 0,
+    "IsProUser": false,
+!    "DefaultProjectId": 4152382,
+"    "AddItemMoreExpanded": false,
+&    "EditDueDateMoreExpanded": false,
+    "ListSortType": 0,
+    "FirstDayOfWeek": 0,
+    "NewTaskDueDate": -1,
+*    "TimeZoneId": "Pacific Standard Time"
+}
+Request method:	GET
+<Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+LHeaders:		Authorization=Basic amM1aHQ2NnBpQGpjcGk2LmNvbTpwYXNzMTIzNDU2Nw==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=vb2boqrwopkzaicit0flstwe; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:25 GMT
+Content-Length: 127
+
+{
+7    "TokenString": "a13144d115d8449c8e3ead8df02b482b",
+(    "UserEmail": "jc5ht66pi@jcpi6.com",
+.    "ExpirationTime": "/Date(1697695286417)/"
+}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=vb2boqrwopkzaicit0flstwe; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:25 GMT
+Content-Length: 127
+
+{
+7    "TokenString": "a13144d115d8449c8e3ead8df02b482b",
+(    "UserEmail": "jc5ht66pi@jcpi6.com",
+.    "ExpirationTime": "/Date(1697695286417)/"
+}
+Request method:	POST
+0Request URI:	https://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+LHeaders:		Authorization=Basic amM1aHQ2NnBpQGpjcGk2LmNvbTpwYXNzMTIzNDU2Nw==
+				Accept=*/*
+1				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+!{"Content":"Project1","Icon":4}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=g50angufcwennpi5xlwv0dvm; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:26 GMT
+Content-Length: 396
+
+{
+    "Id": 4152388,
+    "Content": "Project1",
+    "ItemsCount": 0,
+    "Icon": 4,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 6,
+    "Children": [
+	        
+    ],
+    "IsProjectShared": false,
+#    "ProjectShareOwnerName": null,
+$    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+3    "LastSyncedDateTime": "/Date(1697677287759)/",
+0    "LastUpdatedDate": "/Date(1697677287743)/",
+    "Deleted": false,
+!    "SyncClientCreationId": null
+}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=g50angufcwennpi5xlwv0dvm; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:26 GMT
+Content-Length: 396
+
+{
+    "Id": 4152388,
+    "Content": "Project1",
+    "ItemsCount": 0,
+    "Icon": 4,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 6,
+    "Children": [
+	        
+    ],
+    "IsProjectShared": false,
+#    "ProjectShareOwnerName": null,
+$    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+3    "LastSyncedDateTime": "/Date(1697677287759)/",
+0    "LastUpdatedDate": "/Date(1697677287743)/",
+    "Deleted": false,
+!    "SyncClientCreationId": null
+}
+Request method:	DELETE
+<Request URI:	https://todo.ly/api/authentication/token.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+LHeaders:		Authorization=Basic amM1aHQ2NnBpQGpjcGk2LmNvbTpwYXNzMTIzNDU2Nw==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=r5xucptnhzb4a4yft5fojm13; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:28 GMT
+Content-Length: 48
+
+{
+%    "ErrorMessage": "Invalid Token",
+    "ErrorCode": 103
+}
+HTTP/1.1 200 OK
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+/Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+XSet-Cookie: ASP.NET_SessionId=r5xucptnhzb4a4yft5fojm13; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+%Date: Thu, 19 Oct 2023 01:01:28 GMT
+Content-Length: 48
+
+{
+%    "ErrorMessage": "Invalid Token",
+    "ErrorCode": 103
+}
